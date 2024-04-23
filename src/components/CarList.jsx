@@ -126,7 +126,7 @@ export default function CarList() {
         <>
             <AddCar addCar={addCar} />
             <p>(scroll sideways to see all car details)</p>
-            <div className="ag-theme-material" style={{ width: '120%', height: '700px'}}>
+            <div className="ag-theme-material" style={{ width: '120%', height: '600px'}}>
 
                 <AgGridReact
                     rowData={cars}
